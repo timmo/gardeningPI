@@ -1,0 +1,16 @@
+{
+    "netatmo": {
+        "client_id": "...",
+        "client_secret": "...",
+        "username": "foo@bar.com",
+        "password": "..."
+    },
+    "open_weather_map": {
+        "app_id": "..."
+    },
+    "wetter.com": {
+        "city_code": "...",
+        "project_name": "...",
+        "api_key": "..."
+    }
+}
