@@ -4,6 +4,11 @@
       "id": 1,
       "name": "Vorgarten",
       "gpio": 17
+    },
+    {
+      "id":2,
+      "name": "Gemuesegarten",
+      "gpio":27
     }
   ],
   "schedules": [
