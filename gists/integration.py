@@ -109,7 +109,12 @@ class NetatmoIntegration(IntegrationBase):
                 "password": self.password,
                 "scope": "read_station"
             }
+            
+            # REQUEST 
             response = requests.post(NetatmoIntegration._baseUrl + "oauth2/token", data=params).json()
+            #
+            
+            
         # TODO: Check response
         except RequestException as rex:
             # Authentication failed
@@ -156,7 +161,11 @@ class NetatmoIntegration(IntegrationBase):
             params = {
                 "access_token": self.access_token
             }
+            
+            
             response = requests.post(NetatmoIntegration._baseUrl + "api/getstationsdata", data=params)
+            
+            
             #print(json.dumps(response.json(), sort_keys=True, indent=4, separators=(',', ': ')))
         except RequestException as rex:
             Logger.debug('Netatmo: Failed to refresh data')
