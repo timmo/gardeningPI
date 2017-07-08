@@ -1,0 +1,23 @@
+{
+  "devices": [
+    {
+      "id": 1,
+      "name": "Vorgarten",
+      "gpio": 17
+    }
+  ],
+  "schedules": [
+    {
+      "deviceId": 1,
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "recurrence": "P2D"
+    },
+    {
+      "deviceId": 1,
+      "startTime": "06:00",
+      "endTime": "06:30",
+      "recurrence": "P1D"
+    }
+  ]
+}
