@@ -16,10 +16,10 @@
       "deviceId": 1,
       "startTime": "20:00",
       "endTime": "21:00",
-      "recurrence": "P2D"
+      "recurrence": "P2mport timeD"
     },
     {
-      "deviceId": 1,
+      "deviceId": 2,
       "startTime": "06:00",
       "endTime": "06:30",
       "recurrence": "P1D"

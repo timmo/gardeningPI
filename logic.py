@@ -21,8 +21,10 @@ print( 'attempting: reading schedules ...' )
 schedules = []
 
 for schedule in d['schedules']:
-   schedules.append( Schedule( schedule['deviceId'], devices, schedule['startTime'],
-                               schedule['endTime'], schedule['recurrence'] ) ) 
+   device = next(( x for x in devices if x.id == schedule['deviceId']),None)
+   print(device.name)
+   #schedules.append( Schedule(   schedule['startTime'],
+   #                            schedule['endTime'], schedule['recurrence'] ) )
 print( 'schedules read' )
 
 print(len(devices))
