@@ -1,12 +1,12 @@
 from Device import *
 
-class Schedule ():
+class ScheduleConfig ():
 
-   def __init__( self, device, startTime, endTime, recurrence ):
+   def __init__( self, device, startTime, endTime, recurrenceInDays ):
       self.device = device
       self.startTime = startTime
       self.endTime = endTime
-      self.recurrence = recurrence
+      self.recurrenceInDays = recurrenceInDays
 
 #   def addSchedule( self, id, device, startTime, endTime, recurrence ):
 #       if( recurrence != Null ):
