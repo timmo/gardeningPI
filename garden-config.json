@@ -1,5 +1,5 @@
 {
-  "devices": [
+  "sprinklers": [
     {
       "id": 0,
       "name": "Vorgarten-Trampolin",
@@ -18,7 +18,7 @@
   ],
   "schedules": [
     {
-      "deviceId": 0,
+      "sprinklerId": 0,
       "startTime": "00:04",
       "endTime": "00:05",
       "recurrenceInDays": 1

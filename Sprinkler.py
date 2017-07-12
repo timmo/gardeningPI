@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 
 
-class Device():
+class Sprinkler():
     def __init__(self, id, name, gpio):
         GPIO.setmode(GPIO.BCM)
         self.id = id

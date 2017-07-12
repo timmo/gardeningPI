@@ -10,8 +10,8 @@ class RegisterSchedules():
 
     @staticmethod
     def registerSchedule(toBeScheduled):
-        schedule.every( toBeScheduled.recurrenceInDays).days.at(toBeScheduled.startTime).do(toBeScheduled.device.startSprinkler)
-        schedule.every( toBeScheduled.recurrenceInDays).days.at(toBeScheduled.endTime).do(toBeScheduled.device.stopSprinkler)
+        schedule.every( toBeScheduled.recurrenceInDays).days.at(toBeScheduled.startTime).do(toBeScheduled.sprinkler.startSprinkler)
+        schedule.every( toBeScheduled.recurrenceInDays).days.at(toBeScheduled.endTime).do(toBeScheduled.sprinkler.stopSprinkler)
 
-        print( 'Schedule registered', toBeScheduled.device.name, toBeScheduled.startTime, '-', toBeScheduled.endTime, 'P', toBeScheduled.recurrenceInDays ,'D')
+        print( 'Schedule registered', toBeScheduled.sprinkler.name, toBeScheduled.startTime, '-', toBeScheduled.endTime, 'P', toBeScheduled.recurrenceInDays ,'D')
 

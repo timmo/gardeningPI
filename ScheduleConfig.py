@@ -1,17 +1,10 @@
-from Device import *
+from Sprinkler import *
 
 class ScheduleConfig ():
 
-   def __init__( self, device, startTime, endTime, recurrenceInDays ):
-      self.device = device
+   def __init__(self, sprinkler, startTime, endTime, recurrenceInDays):
+      self.sprinkler = sprinkler
       self.startTime = startTime
       self.endTime = endTime
       self.recurrenceInDays = recurrenceInDays
-
-#   def addSchedule( self, id, device, startTime, endTime, recurrence ):
-#       if( recurrence != Null ):
-#          for ( element in recurrence):
-#             if( isinstance( element, int ) ):
-#                count.append(element)
-#             else:
 
