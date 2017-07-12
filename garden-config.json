@@ -14,15 +14,9 @@
   "schedules": [
     {
       "deviceId": 1,
-      "startTime": "20:00",
-      "endTime": "21:00",
-      "recurrence": "P2D"
-    },
-    {
-      "deviceId": 1,
-      "startTime": "06:00",
-      "endTime": "06:30",
-      "recurrence": "P1D"
+      "startTime": "13:25",
+      "endTime": "13:26",
+      "recurrenceInDays": 1
     }
   ]
 }

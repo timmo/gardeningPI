@@ -17,7 +17,5 @@ class Device():
 
    def stopSprinkler(self):
       GPIO.output( self.gpio, GPIO.HIGH )
-      print( self.id, self.gpio, self.name,' ', 'stop' ) 
+      print( self.id, self.gpio, self.name,' ', 'stop' )
 
-   def getMotorPin(self):
-      return self.gpio
