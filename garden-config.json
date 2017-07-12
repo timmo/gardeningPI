@@ -1,21 +1,26 @@
 {
   "devices": [
     {
-      "id": 1,
-      "name": "Vorgarten",
-      "gpio": 17
+      "id": 0,
+      "name": "Vorgarten-Trampolin",
+      "gpio": 14
     },
     {
-      "id":2,
-      "name": "Gemuesegarten",
-      "gpio":27
+      "id": 1,
+      "name": "Vorgarten-Pflaumenbaum",
+      "gpio": 15
+    },
+    {
+      "id": 2,
+      "name": "Rückgarten-Garage",
+      "gpio": 18
     }
   ],
   "schedules": [
     {
-      "deviceId": 1,
-      "startTime": "13:25",
-      "endTime": "13:26",
+      "deviceId": 0,
+      "startTime": "00:04",
+      "endTime": "00:05",
       "recurrenceInDays": 1
     }
   ]
